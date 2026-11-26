@@ -33,3 +33,8 @@ Run each script from this folder, e.g. `Rscript image_generation/survey_overview
 | `analysis_gains_vs_baseline.R` | Mixed-effects logistic model of big vs. small improvement; writes `tables/improvement_logistic_table.tex`. |
 
 Several figures use unseeded random jitter, so the point positions in those plots differ slightly between runs. No reported numbers depend on it.
+
+## License
+
+- **Code** (`prep.R`, `analysis_gains_vs_baseline.R`, `image_generation/`): MIT License, see `LICENSE`.
+- **Data and outputs** (`data/`, `figs/`, `tables/`): Creative Commons Attribution 4.0 International (CC BY 4.0), see `LICENSE-data`. Please cite the paper when reusing them.
