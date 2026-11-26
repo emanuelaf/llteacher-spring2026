@@ -23,8 +23,8 @@ p_widget_box <- ggplot(widget_long, aes(x = phase, y = value)) +
                width = 0.35, fill = "white",
                outlier.size = 1, linewidth = 0.5) +
   facet_grid(widget ~ homework_title) +
-  scale_y_continuous(limits = c(1, 10), breaks = seq(2, 10, 2)) +
-  labs(x = NULL, y = "Self-rating (1–10)") +
+  scale_y_continuous(limits = c(0, 10), breaks = seq(0, 10, 2)) +
+  labs(x = NULL, y = "Self-rating (0–10)") +
   theme_bw(base_size = 12) +
   theme(panel.grid.minor = element_blank(),
         strip.text = element_text(face = "bold"))
