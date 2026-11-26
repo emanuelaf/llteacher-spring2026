@@ -1,0 +1,26 @@
+file,variable,description,values
+both,student_id,Study ID replacing the original hashed identifiers (one per student),S001-S134
+llteacher_data.csv,homework_title,Assignment,Assignment 1 - Assignment 6 (Extra credit folded into Assignment 6)
+llteacher_data.csv,widget1_pre,Self-rating on widget 1 before the assignment,1-10; NA if not recorded
+llteacher_data.csv,widget2_pre,Self-rating on widget 2 before the assignment,1-10; NA if not recorded
+llteacher_data.csv,widget1_post,Self-rating on widget 1 after the assignment,1-10; NA if not recorded
+llteacher_data.csv,widget2_post,Self-rating on widget 2 after the assignment,1-10; NA if not recorded
+llteacher_data.csv,n_messages,Student chat messages on the two graded problems,integer; 0 = widget ratings but no message on the graded problems
+llteacher_data.csv,avg_message_length,Mean characters per student message (spaces and punctuation included),numeric (1 decimal); NA when n_messages = 0
+survey_data.csv,Q1,LLteacher increased my interest in Statistics,Likert 5-point
+survey_data.csv,Q2,LLteacher helped me understand the concepts of this class,Likert 5-point
+survey_data.csv,Q3,Using LLteacher improved my ability to interpret statistical analysis,Likert 5-point
+survey_data.csv,Q4,Using LLteacher improved my learning in this class,Likert 5-point
+survey_data.csv,Q5,LLteacher made me think more critically about AI-generated responses,Likert 5-point
+survey_data.csv,Q6,LLteacher confused me,Likert 5-point
+survey_data.csv,Q7,I found LLteacher useful,Likert 5-point
+survey_data.csv,Q8,I would like to use LLteacher again,Likert 5-point
+survey_data.csv,Q9,I enjoyed using LLteacher,Likert 5-point
+survey_data.csv,Q10,LLteacher increased my interest in AI tools,Likert 5-point
+survey_data.csv,Q11,I now use AI tools more,Likert 5-point
+survey_data.csv,Q12,I am more confident in using AI tools for learning,Likert 5-point
+survey_data.csv,Q13,I would like more classes to use AI tools,Likert 5-point
+survey_data.csv,Q14,What aspects did you like the most about LLteacher?,Selected options separated by ';' (lower case); NA if unanswered
+survey_data.csv,Q15,What aspects did you like the least about LLteacher?,Selected options separated by ';' (lower case); NA if unanswered
+survey_data.csv,Q16,Did LLteacher hallucinate for you?,Text (lower case); NA if not asked
+survey_data.csv,Q17,How problematic were the hallucinations?,Text (lower case); NA if not asked

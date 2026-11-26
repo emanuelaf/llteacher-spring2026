@@ -1,0 +1,29 @@
+\begin{table}
+\centering
+\begin{tabular}{lc}
+\toprule
+ & Big improvement (change $>$ 2) \\
+\midrule
+Intercept & 2.759*** \\
+ & (0.734) \\
+Pre = 3-4 & -2.144*** \\
+ & (0.622) \\
+Pre = 5 & -3.719*** \\
+ & (0.652) \\
+Assignment 4 & -0.105 \\
+ & (0.408) \\
+Assignment 5 & 0.100 \\
+ & (0.428) \\
+Assignment 6 & 0.845* \\
+ & (0.422) \\
+Widget 2 & 0.697* \\
+ & (0.286) \\
+\midrule
+N & 512 \\
+Students & 117 \\
+AIC & 527.5 \\
+\bottomrule
+\end{tabular}
+\caption{Mixed-effects logistic regression with a random intercept per student: probability of big improvement (change $\geq$ 3) vs. small/no improvement (change $\leq$ 2), by starting-value group, assignment, and widget type. Ceiling-restricted sample. Standard errors in parentheses. + p $<$ 0.1, * p $<$ 0.05, ** p $<$ 0.01, *** p $<$ 0.001}
+\label{tab:improvement_logistic}
+\end{table}
